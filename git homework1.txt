@@ -21,7 +21,7 @@ git push
  Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON 
  vim new.json 
 {
-"name": "Марина",
+"name": "Марина",git comm
 "surname": "Радченко",
 "age": 36,
 "pets": 0,
@@ -46,20 +46,20 @@ vim preferences.json
 "country for visiting": "Greece"
 }
 
- Создать файл skills.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+ Создать файл svimkills.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
 vim skills.json
 {
-"GitBash": true,
-"GitHub": true,
-"Postman": true,
-"Charles": true,
-"mobile testing": true
+ "GitBash": true,
+ "GitHub": true,
+ "Postman": true,
+ "Charles": true,
+ "mobile testing": true
 }
 
  Отправить сразу 2 файла на внешний репозиторий
 git add preferences.json skills.json && git commit -m "add" && git push
  
- На веб интерфейсе создать файл bug_report.json.
+ На веб интерфейсе создать файл touchgitvim.
 
  Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 
@@ -114,7 +114,7 @@ vim preferences.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <personal>
  <favoutite movie>Harry Potter</favoutite movie>
- <favourite TV series>North and South</favourite TV series>
+ <favourite TV series>North and Sviouth</favourite TV series>
  <favourite food>ice cream</favourite food>
  <favourite season>summer</favourite season>
  <country for visiting>Greece</country for visiting>
@@ -143,7 +143,7 @@ git push
 
  На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
 
- Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+ Сделать Commit changes (сохранить) изменения на веб интерфейсе.touch 
 
  Синхронизировать внешний и локальный репозиторий XML
 git pull
